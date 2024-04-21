@@ -1,0 +1,57 @@
+<!-- Header base code-->
+<div class="grid-system"></div>
+<header>
+<div class="button-container">
+<a href="Mainpage.html" class="button"> Home</a>
+<a href="Aboutpage.html" class="button">About</a>
+</div></header>
+
+/*Header base code*/
+.grid-system {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .button-container {
+    display: grid;
+        grid-template-columns: auto auto;
+        justify-content: auto auto;
+        gap: 5px;
+        text-align: right;
+    }
+    .button {
+        display: inline-block;
+        height: auto;
+        max-width: 50px;
+        width: auto;
+        margin-right: 10px;
+        padding: 10px;
+        color: white;
+    
+        background-color: #9747FF;
+        border: none;
+        border-radius: 8px;
+    }
+    header {
+        background-color: #1B203D;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+Centered item to 
+### {
+    grid-column: 1/-1;
+max-width: 800px;
+width: auto;
+height: auto;
+padding: 20px;
+border-radius: 20px;
+margin: 0 auto;
+}
+
+/*Input text field*/
+<meta name="viewport" content="width=device-width", initial-scale="1.0">
+<title>something something </title>
+</div>
+<input type="text" placeholder="something something">

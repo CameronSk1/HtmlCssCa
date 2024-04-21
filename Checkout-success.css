@@ -1,0 +1,70 @@
+/*Header base code*/
+header {
+    background-color: #1B203D;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-system {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button-container {
+display: grid;
+    grid-template-columns: auto auto;
+    justify-content: auto auto;
+    gap: 5px;
+    text-align: right;
+    justify-content: center;
+}
+.button {
+    display: inline-block;
+    height: auto;
+    max-width: 50px;
+    width: auto;
+    margin-right: 10px;
+    padding: 10px;
+    color: white;
+
+    background-color: #9747FF;
+    border: none;
+    border-radius: 8px;
+}
+
+.grid-container {
+    display: grid;
+    height: 100dvh;
+}
+
+.white-box {
+    grid-column: 1/-1;
+    max-width: 800px;
+    max-height: 275px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/*text color*/
+.text-black {
+    color: black;
+    text-align: center;
+}
+
+.text-gray {
+    color: dimgray;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(89, 93, 134, 1);
+}
